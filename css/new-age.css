@@ -151,17 +151,13 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/home.jpg"), #7b4397;
-  /* fallback for old browsers */
-  background: url("../img/home.jpg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/home.jpg"), linear-gradient(to left, #7b4397, #dc2430);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home.jpg");
+  background-size: 100%;
   color: white;
 }
 header .header-content {
   text-align: center;
-  padding: 150px 0 50px;
+  padding: 140px 0 50px;
   position: relative;
 }
 header .header-content .header-content-inner {
